@@ -1,0 +1,136 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+}
+.navbar1, .navbar2{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.navbar3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.navbar4, .navbar5{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.logo1{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+.logo2{
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+.navbar6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: normal;
+    padding-right: 15px;
+}
+.nav_button1, .nav_button2,.nav_button3, .nav_button4{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    border-radius: 15px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 20px 5px 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.nav_button1:hover,.nav_button2:hover,.nav_button3:hover, .nav_button4:hover{
+    /* #30B0E7 */
+    background: rgba(48,176,321,0.8);
+    color: rgba(238,250,255,1);
+    cursor: pointer;
+}
+.navbar7{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: normal;
+    margin-bottom: 10px;
+}
+.navbar8, .navbar9{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+.follow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: normal;
+    margin-left: 10px;
+}
+.follow1,.follow2,.follow3,.follow4{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.follow_logo{
+    height: 35px;
+}
+.enquire{
+    background: #30B0E7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EEFAFF;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    margin-right: 25px;
+}
+.enquire:hover{
+    cursor: pointer;
+    background: #2795c4;
+}
+.enquire:active{
+    background: #268ab5;
+}
