@@ -16,7 +16,7 @@ const Header = () => {
                             <div className="mob_header5">
                                 <Typewriter 
                                     options={{
-                                        strings: ['We Care,<br/> About the Aura that you spread.'],
+                                        strings: ['We Care,<br/> About your Aura.'],
                                         autoStart: true,
                                         loop: true,
                                         cursor:"",
