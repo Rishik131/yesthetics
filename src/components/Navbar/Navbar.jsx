@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Navbar.css";
+import {AiOutlineMenu} from 'react-icons/ai';
 
 const Navbar = (props) => {
 
@@ -42,6 +43,7 @@ const Navbar = (props) => {
             </div>
           </div>
           <div className="mob_navbar3">
+            <AiOutlineMenu className='menu'/>
           </div>
         </div>
       </>

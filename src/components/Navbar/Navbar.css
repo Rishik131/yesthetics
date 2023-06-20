@@ -183,3 +183,6 @@
     align-self: auto;
     order: 0;
 }
+.menu:hover{
+    cursor: pointer;
+}

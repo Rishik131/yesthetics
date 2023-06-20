@@ -32,16 +32,15 @@ const About = (props) => {
                     </div>
                     <div className="item3">
                         <div className="mob_item3_1">
-                            <div className="item3_2">
-                                <img data-aos="fade-left" src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/hair.jpg?raw=true" alt="Face" width={450} />
-
-                            </div>
-                            <div className="item3_3">
-                                <div data-aos="fade-right" className="hair">
+                        <div className="item3_3">
+                                <div data-aos="fade-left" className="hair">
 
                                     <div className="hair1">Hair</div>
                                     <div className="hair2">Experience the ultimate hair transformation at Yesthetics. Revitalize your locks, restore shine, and embrace luxurious, healthy hair. Our professional hair treatments will leave you feeling confident and ready to turn heads with your stunning mane.</div>
                                 </div>
+                            </div>
+                            <div className="item3_2">
+                                <img data-aos="fade-right" src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/hair.jpg?raw=true" alt="Face" width={450} />
                             </div>
                         </div>
                     </div>

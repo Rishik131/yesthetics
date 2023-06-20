@@ -20,6 +20,7 @@
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.0",
     "react-google-maps": "^9.4.5",
+    "react-icons": "^4.9.0",
     "react-leaflet": "^4.2.1",
     "typewriter-effect": "^2.20.1"
   },
