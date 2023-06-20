@@ -183,6 +183,10 @@
     align-self: auto;
     order: 0;
 }
-.menu:hover{
-    cursor: pointer;
+.menu{
+    padding-top: 10px;
+    padding-right: 10px;
+    height: 30px;
+    width: auto;
+    color: #5c5c5c;
 }
