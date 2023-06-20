@@ -67,3 +67,14 @@
     font-size: 20px;
     padding: 15px 0 15px 0;
 }
+/* ______________________ */
+.mob_doctor2, .mob_doctor3{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    color: #13658A;
+    font-family: Arial, Helvetica, sans-serif;
+}

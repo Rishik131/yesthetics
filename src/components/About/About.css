@@ -101,3 +101,13 @@
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+/* _________________________ */
+.mob_item2_1, .mob_item3_1, .mob_item4_1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+}

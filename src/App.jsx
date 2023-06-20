@@ -15,6 +15,10 @@ const App = () => {
     return (
       <>
         <Navbar/>
+        <Header/>
+        <Header2/>
+        <About/>
+        {/* testing */}
       </>
     );
   } 

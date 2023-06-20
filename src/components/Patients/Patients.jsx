@@ -3,14 +3,14 @@ import "./Patients.css"
 
 const Patients = (props) => {
     const images = [
-        'src/assets/images/darkcirclecollage1.jpg',
-    'src/assets/images/dentalcollage.jpg',
-    'src/assets/images/Hair-Transplant-BeforeAfter.jpg',
-    'src/assets/images/haircollage1.jpg',
-    'src/assets/images/haircollage2.jpg',
-    'src/assets/images/pigmencollage.jpg',
-    'src/assets/images/pimplecollage.jpg',
-    'src/assets/images/wartcollage1.jpg'
+        'https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/darkcirclecollage1.jpg?raw=true',
+    'https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/dentalcollage.jpg?raw=true',
+    'https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/Hair-Transplant-BeforeAfter.jpg?raw=true',
+    'https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/haircollage1.jpg?raw=true',
+    'https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/haircollage2.jpg?raw=true',
+    'https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/pigmencollage.jpg?raw=true',
+    'https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/pimplecollage.jpg?raw=true',
+    'https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/wartcollage1.jpg?raw=true'
 ]
     const gallery = (image) => {
         return (

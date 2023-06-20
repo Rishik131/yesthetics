@@ -11,11 +11,44 @@ const Navbar = (props) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
   };
   if (isMobileDevice()) {
-    <div className="mob_navbar1">
-      <div className="mob_navbar2"></div>
-      <div className="mob_navbar3"></div>
-    </div>
+    return (
+      <>
+        <div className="mob_navbar1">
+          <div className="mob_navbar2">
+            <div className="mob_navbar4">
+              <div className="mob_navbar5">
+                <img className="logo2" src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/LOGO1.png?raw=true" alt="Logo" />
+              </div>
+              <div className="mob_navbar6">
+                <div className="follow">
+                  <div className="follow1">Follow Us:</div>
+                  <div className="follow2">
+                    <a href="#">
+                      <img className='follow_logo' src="https://raw.githubusercontent.com/Rishik131/yesthetics/bdfcddcdff15da86d4c6587893a5aee892ac24d5/src/assets/icons/instagram_color.svg" alt="Instagram" />
+                    </a>
+                  </div>
+                  <div className="follow3">
+                    <a href="#">
+                      <img className='follow_logo' src="https://raw.githubusercontent.com/Rishik131/yesthetics/bdfcddcdff15da86d4c6587893a5aee892ac24d5/src/assets/icons/linkedin.svg" alt="LinkedIn" />
+                    </a>
+                  </div>
+                  <div className="follow4">
+                    <a href="#">
+                      <img className='follow_logo' src="https://raw.githubusercontent.com/Rishik131/yesthetics/bdfcddcdff15da86d4c6587893a5aee892ac24d5/src/assets/icons/twitter.svg" alt="Twitter" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mob_navbar3">
+          </div>
+        </div>
+      </>
+    );
+
   }
+
   else {
     return (
       <div className='navbar'>
@@ -24,7 +57,7 @@ const Navbar = (props) => {
             <div className="navbar4">
               <div className="logo">
                 <div className="logo1">
-                  <img className="logo2" src="src/assets/images/LOGO1.png" alt="Logo" />
+                  <img className="logo2" src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/LOGO1.png?raw=true" alt="Logo" />
                 </div>
               </div>
             </div>
@@ -45,17 +78,17 @@ const Navbar = (props) => {
                 <div className="follow1">Follow Us:</div>
                 <div className="follow2">
                   <a href="#">
-                    <img className='follow_logo' src="src\assets\icons\instagram_color.svg" alt="Instagram" />
+                    <img className='follow_logo' src="https://raw.githubusercontent.com/Rishik131/yesthetics/bdfcddcdff15da86d4c6587893a5aee892ac24d5/src/assets/icons/instagram_color.svg" alt="Instagram" />
                   </a>
                 </div>
                 <div className="follow3">
                   <a href="#">
-                    <img className='follow_logo' src="src\assets\icons\linkedin.svg" alt="LinkedIn" />
+                    <img className='follow_logo' src="https://raw.githubusercontent.com/Rishik131/yesthetics/bdfcddcdff15da86d4c6587893a5aee892ac24d5/src/assets/icons/linkedin.svg" alt="LinkedIn" />
                   </a>
                 </div>
                 <div className="follow4">
                   <a href="#">
-                    <img className='follow_logo' src="src\assets\icons\twitter.svg" alt="Twitter" />
+                    <img className='follow_logo' src="https://raw.githubusercontent.com/Rishik131/yesthetics/bdfcddcdff15da86d4c6587893a5aee892ac24d5/src/assets/icons/twitter.svg" alt="Twitter" />
                   </a>
                 </div>
               </div>
