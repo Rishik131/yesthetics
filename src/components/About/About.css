@@ -114,3 +114,13 @@
 .extra_margin{
     margin-top: 10px;
 }
+.mob_face, .mob_hair, .mob_teeth{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: normal;
+    width: 350px;
+    
+}

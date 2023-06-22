@@ -19,7 +19,7 @@ const About = (props) => {
                     <div className="item2">
                         <div className="mob_item2_1">
                             <div className="item2_2">
-                                <div data-aos="fade-left" className="face">
+                                <div data-aos="fade-left" className="mob_face">
 
                                     <div className="face1">Face</div>
                                     <div className="face2">Unlock the secret to timeless beauty with our exceptional face treatments. Indulge in rejuvenating therapies that enhance skin health, restore radiance, and boost self-confidence. Experience the ultimate transformation and step into a world of unparalleled skincare excellence.</div>
@@ -34,7 +34,7 @@ const About = (props) => {
                     <div className="item3">
                         <div className="mob_item3_1">
                         <div className="item3_3">
-                                <div data-aos="fade-left" className="hair">
+                                <div data-aos="fade-left" className="mob_hair">
 
                                     <div className="hair1">Hair</div>
                                     <div className="hair2">Experience the ultimate hair transformation at Yesthetics. Revitalize your locks, restore shine, and embrace luxurious, healthy hair. Our professional hair treatments will leave you feeling confident and ready to turn heads with your stunning mane.</div>
@@ -48,7 +48,7 @@ const About = (props) => {
                     <div className="item4">
                         <div className="mob_item4_1">
                             <div className="item4_2">
-                                <div data-aos="fade-left" className="teeth">
+                                <div data-aos="fade-left" className="mob_teeth">
 
                                     <div className="teeth1">Teeth</div>
                                     <div className="teeth2">Experience the ultimate hair transformation at Yesthetics. Revitalize your locks, restore shine, and embrace luxurious, healthy hair. Our professional hair treatments will leave you feeling confident and ready to turn heads with your stunning mane.</div>
