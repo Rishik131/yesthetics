@@ -25,7 +25,6 @@ const App = () => {
         <Patients galleryRef={galleryRef}/>
         <Contact/>
         <Footer/>
-        {/* testing */}
       </>
     );
   } 
