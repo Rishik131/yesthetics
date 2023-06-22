@@ -82,14 +82,14 @@ const About = (props) => {
                             </div>
                             <div data-aos="fade-left" className="item2_3">
 
-                                <img src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/facial.jpg?raw=true" alt="Face" width={450} />
+                                <img src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/facial2.jpg?raw=true" alt="Face" width={450} />
                             </div>
                         </div>
                     </div>
                     <div className="item3">
                         <div className="item3_1">
                             <div className="item3_2">
-                                <img data-aos="fade-right" src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/hair.jpg?raw=true" alt="Face" width={450} />
+                                <img data-aos="fade-right" src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/hair2.jpg?raw=true" alt="Face" width={450} />
 
                             </div>
                             <div className="item3_3">
@@ -112,7 +112,7 @@ const About = (props) => {
                             </div>
                             <div data-aos="fade-left" className="item4_3">
 
-                                <img src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/teeth.jpg?raw=true" alt="Face" width={450} />
+                                <img src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/teeth1.jpg?raw=true" alt="Face" width={450} />
                             </div>
                         </div>
                     </div>
