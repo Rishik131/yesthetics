@@ -134,6 +134,10 @@
 .enquire:active{
     background: #268ab5;
 }
+.enquire2{
+    text-decoration: none;
+    color: #EEFAFF;
+}
 /* ________________________________________ */
 .mob_container{
     display: flex;

@@ -7,7 +7,7 @@
     align-content: center;
 
     background: rgba(247,233,215,0.58);
-    width: 100vw;
+    /* width: 100vw; */
     height: 350px;
 }
 .header1, .header2{

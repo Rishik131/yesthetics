@@ -64,10 +64,10 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="header2">
-                        <svg className='header3'>
+                        {/* <svg className='header3'>
                             <path d="M 350 0 L 700 0 L 700 350 L 0 350 C 353 286 426 82 350 0" fill="#F7E9D7" fillOpacity={.5}/>
                             <path d="m 0 0 L 500 0 L 500 350 L 250 350 C 246 202 113 37 0 0" fill="#F7E9D7" fillOpacity={.5}/>
-                        </svg>
+                        </svg> */}
                     </div>
                 </div>
             </>

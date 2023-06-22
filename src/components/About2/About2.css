@@ -8,7 +8,7 @@
 
     background: rgba(247,233,215,0.58);
     margin-top: 20px;
-    width: 100vw;
+    /* width: 100vw; */
 }
 .doctor1, .doctor2{
     display: block;
