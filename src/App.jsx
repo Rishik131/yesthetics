@@ -38,6 +38,7 @@ const App = () => {
         <About aboutRef={aboutRef}/>
         <Patients galleryRef={galleryRef}/>
         <Contact/>
+        <Footer/>
       </>
     );
   }
