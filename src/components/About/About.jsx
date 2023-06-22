@@ -27,7 +27,7 @@ const About = (props) => {
                             </div>
                             <div data-aos="fade-right" className="item2_3 extra_margin">
 
-                                <img src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/facial2.jpg?raw=true" alt="Face" width={350} />
+                                <img src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/facial2.jpg?raw=true" alt="Face" width={250} />
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ const About = (props) => {
                                 </div>
                             </div>
                             <div className="item3_2 extra_margin">
-                                <img data-aos="fade-right" src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/hair2.jpg?raw=true" alt="Hair" width={350} />
+                                <img data-aos="fade-right" src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/hair2.jpg?raw=true" alt="Hair" width={250} />
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ const About = (props) => {
                                 </div>
                             </div>
                             <div data-aos="fade-right" className="item4_3 extra_margin">
-                                <img src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/teeth1.jpg?raw=true" alt="Teeth" width={350} />
+                                <img src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/teeth1.jpg?raw=true" alt="Teeth" width={250} />
                             </div>
                         </div>
                     </div>
