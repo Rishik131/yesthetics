@@ -10,6 +10,7 @@ const About = (props) => {
     function isMobileDevice() {
         return /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/i.test(navigator.userAgent);
     };
+    
     if (isMobileDevice()) {
         return (
             <>
@@ -24,9 +25,9 @@ const About = (props) => {
                                     <div className="face2">Unlock the secret to timeless beauty with our exceptional face treatments. Indulge in rejuvenating therapies that enhance skin health, restore radiance, and boost self-confidence. Experience the ultimate transformation and step into a world of unparalleled skincare excellence.</div>
                                 </div>
                             </div>
-                            <div data-aos="fade-right" className="item2_3">
+                            <div data-aos="fade-right" className="item2_3 extra_margin">
 
-                                <img src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/facial.jpg?raw=true" alt="Face" width={450} />
+                                <img src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/facial2.jpg?raw=true" alt="Face" width={350} />
                             </div>
                         </div>
                     </div>
@@ -39,8 +40,8 @@ const About = (props) => {
                                     <div className="hair2">Experience the ultimate hair transformation at Yesthetics. Revitalize your locks, restore shine, and embrace luxurious, healthy hair. Our professional hair treatments will leave you feeling confident and ready to turn heads with your stunning mane.</div>
                                 </div>
                             </div>
-                            <div className="item3_2">
-                                <img data-aos="fade-right" src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/hair.jpg?raw=true" alt="Face" width={450} />
+                            <div className="item3_2 extra_margin">
+                                <img data-aos="fade-right" src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/hair2.jpg?raw=true" alt="Hair" width={350} />
                             </div>
                         </div>
                     </div>
@@ -53,9 +54,8 @@ const About = (props) => {
                                     <div className="teeth2">Experience the ultimate hair transformation at Yesthetics. Revitalize your locks, restore shine, and embrace luxurious, healthy hair. Our professional hair treatments will leave you feeling confident and ready to turn heads with your stunning mane.</div>
                                 </div>
                             </div>
-                            <div data-aos="fade-right" className="item4_3">
-
-                                <img src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/teeth.jpg?raw=true" alt="Face" width={450} />
+                            <div data-aos="fade-right" className="item4_3 extra_margin">
+                                <img src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/teeth1.jpg?raw=true" alt="Teeth" width={350} />
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ const About = (props) => {
                     <div className="item3">
                         <div className="item3_1">
                             <div className="item3_2">
-                                <img data-aos="fade-right" src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/hair2.jpg?raw=true" alt="Face" width={350} />
+                                <img data-aos="fade-right" src="https://github.com/Rishik131/yesthetics/blob/main/src/assets/images/hair2.jpg?raw=true" alt="Hair" width={350} />
 
                             </div>
                             <div className="item3_3">
