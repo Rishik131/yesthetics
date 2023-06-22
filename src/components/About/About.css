@@ -33,7 +33,7 @@
     justify-content: space-around;
     align-items: center;
     align-content: normal;
-    width: 100%;
+    /* width: 100%; */
 }
 .item2_2, .item2_3, .item3_2, .item3_3,.item4_2, .item4_3{
     display: block;
