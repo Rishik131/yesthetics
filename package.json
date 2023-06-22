@@ -10,19 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.13.4",
     "aos": "^2.3.4",
     "google-map-react": "^2.2.1",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
-    "react-burger-menu": "^3.0.9",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.0",
     "react-google-maps": "^9.4.5",
     "react-icons": "^4.9.0",
     "react-leaflet": "^4.2.1",
+    "react-responsive-carousel": "^3.2.23",
     "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {

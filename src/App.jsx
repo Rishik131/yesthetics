@@ -5,6 +5,7 @@ import Header2 from "./components/Header2/Header2";
 import About from "./components/About/About";
 import Patients from "./components/Patients/Patients";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import { useRef } from "react";
 
 const App = () => {
@@ -21,6 +22,9 @@ const App = () => {
         <Header/>
         <Header2/>
         <About aboutRef={aboutRef}/>
+        <Patients galleryRef={galleryRef}/>
+        <Contact/>
+        <Footer/>
         {/* testing */}
       </>
     );

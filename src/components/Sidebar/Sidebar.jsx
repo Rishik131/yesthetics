@@ -18,7 +18,7 @@ const Sidebar = (props) => {
                 <div className="sidebar3">
                     <div onClick={() => props.handleClick(props.homeRef)}  className="sidebar4">Home</div>
                     <div onClick={() => props.handleClick(props.aboutRef)} className="sidebar5">About</div>
-                    <div className="sidebar6">Patient Gallery</div>
+                    <div onClick={() => props.handleClick(props.galleryRef)} className="sidebar6">Patient Gallery</div>
                     <div className="sidebar7">Blog</div>
                     <hr />
                     <div className="sidebar8">
