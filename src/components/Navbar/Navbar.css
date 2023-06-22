@@ -146,6 +146,7 @@
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
+    width: 100vw;
 }
 .mob_item1{
     display: block;
@@ -171,6 +172,9 @@
     align-self: auto;
     order: 0;
 }
+.mob_navbar3{
+    padding: 10px 10px;
+}
 .mob_navbar4{
     display: flex;
     flex-direction: column;
@@ -193,4 +197,20 @@
     height: 30px;
     width: auto;
     color: #5c5c5c;
+}
+.mob_logo2{
+    width: 180px;
+    height: auto;
+    margin-top: 10px;
+}
+.menu_icon{
+    width: 25px;
+    height: 25px;
+    color: #13658A;
+}
+.menu_icon:active{
+    color: #0c425b;
+}
+.menu_icon:hover{
+    cursor: pointer;
 }

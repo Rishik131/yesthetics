@@ -11,23 +11,24 @@ const App = () => {
   function isMobileDevice() {
     return /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/i.test(navigator.userAgent);
   }
+  const homeRef = useRef(null);
+  const aboutRef = useRef(null);
+  const galleryRef = useRef(null);
   if (isMobileDevice()) {
     return (
       <>
-        <Navbar/>
+        <Navbar homeRef={homeRef} aboutRef={aboutRef} galleryRef={galleryRef}/>
         <Header/>
         <Header2/>
-        <About/>
+        <About aboutRef={aboutRef}/>
         {/* testing */}
       </>
     );
   } 
   else {
-    const aboutRef = useRef(null);
-    const galleryRef = useRef(null);
     return (
       <>
-        <Navbar aboutRef={aboutRef} galleryRef={galleryRef}/>
+        <Navbar homeRef={homeRef} aboutRef={aboutRef} galleryRef={galleryRef}/>
         <Header/>
         <Header2/>
         <About aboutRef={aboutRef}/>

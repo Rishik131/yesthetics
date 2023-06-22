@@ -1,8 +1,74 @@
 .sidebar{
-    background: blue;
-    color: red;
+    background: rgba(19, 101, 138, 0.75);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(19, 101, 138, 0.18);
+    color: rgba(238,250,255,1);
     right: 0;
     height: 100%;
     position: fixed;
     z-index: 1;
+    width:50%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    transition: transform .5s;
+}
+.sidebar_hide{
+    transform: translateX(100%);
+    transition: transform .5s;
+}
+.sidebar1, .sidebar2{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+.sidebar1{
+    padding: 8px;
+}
+.sidebar3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: flex-start;
+    align-content: normal;
+}
+.sidebar4, .sidebar5,.sidebar6,.sidebar7, .sidebar8{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    color: rgba(238,250,255,1);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 11px;
+    padding-left: 10px;
+}
+.sidebar4:hover,.sidebar5:hover,.sidebar6:hover,.sidebar7:hover,.sidebar8:hover{
+    cursor: pointer;
+}
+hr{
+    width: 70%;
+    margin-left: 10px;
+}
+.sidebar8{
+    width: 100%;
+    padding-left: 15%;
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: rgba(238,250,255,1);
 }
