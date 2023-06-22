@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Navbar.css";
 import { AiOutlineMenu } from 'react-icons/ai';
-
+import Sidebar from '../Sidebar/Sidebar';
 const Navbar = (props) => {
   const handleClick = (ref) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
@@ -54,7 +54,7 @@ const Navbar = (props) => {
           </div>
           <div className="navbar9">
             <div className="enquire">
-              <a className="enquire2" href="tel: +91-9005094756">Book An Appointment</a>
+              <a className="enquire2" href="tel: 9108775075">Book An Appointment</a>
             </div>
           </div>
         </div>

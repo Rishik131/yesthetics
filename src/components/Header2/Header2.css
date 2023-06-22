@@ -1,7 +1,24 @@
 .bar{
-    width: 100%;
-    padding: 15px 0 15px 0;
+    display: flex;
+    align-items: center;
     background: #13658A;
     font-family: Arial, Helvetica, sans-serif;
     color: #EEFAFF;
+    overflow: hidden;
+    padding: 15px 0 15px 0;
+}
+.bar2{
+    white-space: nowrap;
+    animation: marquee 18s infinite linear;
+}
+.bar2:after{
+    content:"Now get Hair Transplant on EMIs, call 9108775075 for more details • We have Specialised Modern Treatment Equipped for Hair Transplant, PRP, Wrinkles, Vitiligo, Hairfall, Unwanted Hair Removal, Tattoo Removal • For detailed information kindly check the sections shown below.  ";
+}
+@keyframes marquee{
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-50%)
+    }
 }

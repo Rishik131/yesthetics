@@ -1,0 +1,8 @@
+.sidebar{
+    background: blue;
+    color: red;
+    right: 0;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+}
